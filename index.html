@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contravariant Consulting</title>
+  <!-- Inline SVG favicon -->
+  <link rel="icon" href="data:image/svg+xml,
+    <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'>
+      <circle cx='50' cy='50' r='48' fill='%231976d2'/>
+      <text x='50' y='58' font-size='50' text-anchor='middle' fill='white' font-family='Arial'>C</text>
+    </svg>">
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      margin: 0;
+      color: #333;
+      background: #fafafa;
+      line-height: 1.6;
+    }
+    header {
+      background: linear-gradient(135deg, #0d47a1, #1976d2);
+      color: white;
+      text-align: center;
+      padding: 3rem 1rem;
+    }
+    .logo {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      font-weight: bold;
+      font-size: 2rem;
+    }
+    .logo svg {
+      height: 2.2rem;
+      width: 2.2rem;
+    }
+    header p {
+      font-size: 1.2rem;
+      margin-top: 0.75rem;
+    }
+    section {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+    h2 {
+      color: #0d47a1;
+      border-bottom: 2px solid #e0e0e0;
+      padding-bottom: 0.3rem;
+    }
+    .contact {
+      background: #fff;
+      border: 1px solid #ddd;
+      padding: 1.5rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    }
+    .contact p {
+      margin: 0.5rem 0;
+    }
+    footer {
+      text-align: center;
+      font-size: 0.9rem;
+      padding: 1rem;
+      background: #eee;
+      color: #555;
+    }
+    a {
+      color: #1976d2;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <!-- Inline logo -->
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+        <circle cx="50" cy="50" r="48" fill="white"/>
+        <text x="50" y="58" font-size="50" text-anchor="middle" fill="#1976d2" font-family="Arial">C</text>
+      </svg>
+      Contravariant
+    </div>
+    <p>Making legacy systems secure, stable, and future‑ready</p>
+  </header>
+<section>
+  <h2>About Us</h2>
+  <p>
+    At Contravariant, we help organizations get the most from their existing technology 
+    investments. Our focus is on supporting and modernizing legacy systems, ensuring they 
+    remain reliable, secure, and aligned with today’s business needs.
+  </p>
+  <p>
+    We specialize in bridging the gap between legacy platforms and modern infrastructure, 
+    improving observability, enhancing security, and extending the life of critical systems. 
+    Whether you need stability, performance improvements, or a roadmap for gradual 
+    modernization, Contravariant provides the expertise to keep your business running 
+    smoothly.
+  </p>
+</section>
+
+  <section>
+    <h2>Contact</h2>
+    <div class="contact">
+      <p>Email: <a href="mailto:bradleywboggs@proton.me">bradleywboggs@proton.me</a></p>
+      <p>Location: Remote (US‑based)</p>
+    </div>
+  </section>
+
+  <footer>
+    © <span id="year"></span> Contravariant, LLC. All rights reserved.
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
